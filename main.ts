@@ -1,8 +1,22 @@
-function animation (LED: number, sutDeg: number) {
-    while (durum == true) {
+namespace progressAnimation{
+    //% blockId=progressAnimationLoading
+    //% block="progressAni $ledSayisi, $ledSirasi, $durum"
+    //% ledSayisi.min=1 ledSayisi.max=5
+    //% ledSirasi.min=0 ledSirasi.max=4
+    
+
+
+
+    export function progressAni(ledsayisi: number, sira: number, durum: boolean):void {
+     const leds=ledsayisi;
+     const ledsirasi= sira;
+     let state = durum;
+
+
+     while (state == true) {
         for (let satir = 0; satir <= 4; satir++) {
-            for (let sutun = 0; sutun <= LED - 1; sutun++) {
-                led.plot(satir, sutun + sutDeg)
+            for (let sutun = 0; sutun <= ledsayisi - 1; sutun++) {
+                led.plot(satir, sutun + ledsirasi)
                 for (let index = 0; index <= 50; index++) {
                     led.setBrightness(index * 4 + 55)
                     basic.pause(10)
@@ -16,12 +30,22 @@ function animation (LED: number, sutDeg: number) {
             led.enable(true)
             basic.pause(100)
         }
-        durum = false
+        state = false
         led.setBrightness(255)
     }
     basic.pause(500)
     basic.clearScreen()
 }
-let durum = false
-durum = true
-animation(1, 2)
+
+
+
+
+    }
+
+
+
+
+
+
+
+
