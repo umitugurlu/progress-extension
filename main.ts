@@ -1,6 +1,6 @@
 namespace progressAnimation{
     //% blockId=progressAnimationLoading
-    //% block="progressAni LedSayisi = $ledSayisi, LedSirasi =  $ledSirasi, durum = $durum"
+    //% block="progressAni LedSayisi = $ledsayisi, LedSirasi =  $sira, durum = $durum"
     //% ledSayisi.min=1 ledSayisi.max=5
     //% ledSirasi.min=0 ledSirasi.max=4
     
