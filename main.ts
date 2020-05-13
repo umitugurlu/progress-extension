@@ -7,7 +7,7 @@ namespace progressAnimation{
 
 
 
-    export function progressAni(ledsayisi: number, sira: number, durum: boolean):void {
+    export function progressAni(ledsayisi: number, sira: number, durum: boolean): void {
         ledsayisi |=0
         sira |=0
         durum ||true
