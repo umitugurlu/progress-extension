@@ -1,6 +1,16 @@
 
 > Open this page at [https://umitugurlu.github.io/progress-extension/](https://umitugurlu.github.io/progress-extension/)
 
+## Kod Bloğu
+
+### ``progressani`` kod bloğu
+
+Bu kod bloğu Micro:Bit 5x5 LED panelinde bir progress animasyonu oluşturur. 
+
+```blocks
+progressAnimation.progressAni(0, 0, false)
+
+```
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
