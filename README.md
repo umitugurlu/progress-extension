@@ -1,7 +1,7 @@
 
 > Open this page at [https://umitugurlu.github.io/progress-extension/](https://umitugurlu.github.io/progress-extension/)
 
-## Kod Bloğu
+## Kullanımı
 
 ### ``progressani`` kod bloğu
 
