@@ -1,6 +1,7 @@
 namespace progressAnimation{
     //% blockId=progressAnimationLoading
     //% block="progressAni LedSayisi = $ledsayisi, LedSirasi =  $sira, durum = $durum"
+    //% ledsayisi.defl=3,  sira.defl=2 , durum.defl=true
     //% ledsayisi.min=1 ledsayisi.max=5
     //% sira.min=0 sira.max=4
     //% color="#FF5733" weight=100 icon="spinner icon" 
