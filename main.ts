@@ -1,4 +1,4 @@
- //% color="#FF5733" weight=10 icon="\uf0a4"
+ 
 
 namespace progressAnimation{
     //% blockId=progressAnimationLoading
@@ -7,7 +7,7 @@ namespace progressAnimation{
     //% durum.defl=true
     //% ledsayisi.min=1 ledsayisi.max=5
     //% sira.min=0 sira.max=4
-   
+   //% color="#FF5733" weight=10 icon="\uf0a4"
     //% 
  
     
