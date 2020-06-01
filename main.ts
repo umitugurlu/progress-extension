@@ -1,4 +1,5 @@
  
+   //% color="#fdfdfd" weight=1000 icon="\f2a9"
 
 namespace progressAnimation{
     //% blockId=progressAnimationLoading
