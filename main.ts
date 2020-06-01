@@ -5,8 +5,8 @@ namespace progressAnimation{
     //% durum.defl=true
     //% ledsayisi.min=1 ledsayisi.max=5
     //% sira.min=0 sira.max=4
-    //% color="#FF5733" weight=1000
-    //% icon="&#xf110" 
+    //% color="#FF5733" weight=1000 icon="\uf0a4"
+    //% 
  
     
 
